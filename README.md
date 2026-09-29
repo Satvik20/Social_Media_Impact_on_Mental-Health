@@ -31,9 +31,3 @@
 | feel_close_to_school | Feel close to people at school |
 | parental_monitoring | Parents know where they are / who with |
 | survey_weight, stratum, psu | CDC survey design variables |
-
-## Important notes
-- **Use `survey_weight` when reporting percentages** so results represent all US high school students. Unweighted counts are fine for exploration.
-- Blank = question not answered or not asked. Several questions (social media, feel close to school, parental monitoring, difficulty concentrating, sports teams, breakfast) have 24–46% missing. Check the CDC 2023 Data User's Guide for why before dropping rows. The missing answers may not be random.
-- Data is cross-sectional (one point in time), so it shows **associations, not causes**.
-- Suicide, sexual behaviour, abuse and drug-use questions were deliberately left out.
